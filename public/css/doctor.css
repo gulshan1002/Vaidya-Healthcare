@@ -1,0 +1,204 @@
+body{
+    background:#dcdcdc;
+    margin-top: 20px;
+}
+
+.btn-success {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(103, 192, 103, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(103, 192, 103, 0.75);
+  border-radius: 10px;
+  background: transparent;
+  padding: 4px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-success:hover {
+  color: #FFF;
+  background: rgb(103, 192, 103, 0.75);
+  border: 2px solid rgb(103, 192, 103, 0.75);
+}
+
+.doctorlist-container{
+  margin-top: 100px;
+}
+
+.doctor-table{
+  color: #3c4142;
+  font-weight: 400;
+}
+
+
+.doctor-table-img img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.doctor-table-name {
+  min-width: 200px;
+}
+
+.doctor-table-name a {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #3c4142;
+  line-height: 1.5;
+}
+
+.doctor-table-name a:hover {
+  color: #68CBD7;
+  text-decoration: none;
+}
+
+.doctor-table-name .edu {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.doctor-table-location {
+  min-width: 100px;
+  font-weight: 400;
+}
+
+.doctor-table-location p {
+  line-height: 1.5;
+  color: #3c4142;
+  font-size: 0.8125rem;
+}
+
+.doctor-table-location .location {
+  color: #3c4142;
+}
+
+.doctor-table-fee {
+  min-width: 70px;
+  font-weight: 400;
+  color: #3c4142;
+  font-size: 0.8125rem;
+}
+
+.doctor-table-job-category {
+  padding: .5rem;
+  display: inline-flex;
+  white-space: nowrap;
+  border-radius: 15px;
+}
+
+
+.doctor-table-job-category span {
+  font-size: 0.8125rem;
+  color: #3c4142;
+  font-weight: 600;
+}
+.doctor-table-job-rating{
+    font-size: 0.8125rem;
+}
+.doctor-table-job-rating svg {
+  width: 20px;
+  height: 20px;
+  color: #fd8b2c;
+}
+
+.bg-soft-green {
+  background-color: #e1f5f7;
+}
+.bg-soft-yellow {
+    background-color: #fff4e1;
+}
+
+.bg-soft-red {
+    background-color: #fedce0;
+}
+
+.search-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-form input {
+  height: 100%;
+  border: 1px solid black;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.search-form select {
+  border: 1px solid;
+  padding: 1rem;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.search-form select:focus {
+  border: 0;
+}
+
+.search-body {
+  margin-bottom: 1.5rem;
+}
+
+.result-header {
+  margin-bottom: 2rem;
+}
+
+.result-header .records {
+  color: #3c4142;
+}
+
+.result-header .result-actions {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content:end;
+}
+
+.result-sorting {
+  display: flex;
+  align-items: center;
+}
+
+.result-sorting span {
+  flex-shrink: 0;
+  font-size: 0.8125rem;
+}
+
+.result-sorting select {
+  color: #68CBD7;
+}
+
+.result-sorting select option {
+  color: #3c4142;
+}
+
+.card-margin {
+    margin-bottom: 1.875rem;
+}
+
+
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
